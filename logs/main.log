@@ -1,0 +1,1914 @@
+2024-12-06T18:42:22.305535+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:42:22.306532+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-06T18:42:22.430475+0300 INFO Request to http://127.0.0.1:8001/favicon.ico - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:42:22.432472+0300 INFO Response: 404 for GET http://127.0.0.1:8001/favicon.ico
+2024-12-06T18:43:18.511949+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:43:18.512950+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-06T18:43:18.755298+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:43:18.776826+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-06T18:43:28.866561+0300 INFO Request to http://127.0.0.1:8001/user/dfgh?user_id=2134 - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:43:28.867557+0300 DEBUG Query Params: {'user_id': '2134'}
+2024-12-06T18:43:28.869554+0300 INFO Getting user: dfgh with ID: 2134
+2024-12-06T18:43:28.870559+0300 INFO Response: 200 for GET http://127.0.0.1:8001/user/dfgh?user_id=2134
+2024-12-06T18:43:29.719760+0300 INFO Request to http://127.0.0.1:8001/user/dfgh?user_id=2134 - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:43:29.720758+0300 DEBUG Query Params: {'user_id': '2134'}
+2024-12-06T18:43:29.721765+0300 INFO Getting user: dfgh with ID: 2134
+2024-12-06T18:43:29.723763+0300 INFO Response: 200 for GET http://127.0.0.1:8001/user/dfgh?user_id=2134
+2024-12-06T18:54:49.254108+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:54:49.255784+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-06T18:54:57.136189+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:54:57.137592+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-06T18:54:57.477822+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-06T18:54:57.572396+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-06T18:55:19.241610+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-06T18:55:19.242226+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:22:31.046958+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:22:31.050790+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T19:22:31.234025+0300 INFO Request to http://127.0.0.1:8001/favicon.ico - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:22:31.235554+0300 INFO Response: 404 for GET http://127.0.0.1:8001/favicon.ico
+2024-12-09T19:22:53.193726+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:22:53.195418+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T19:22:53.441994+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:22:53.469704+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T19:23:20.603233+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:23:20.604419+0300 DEBUG Request Body: {
+  "first_name": "Ivvan",
+  "last_name": "Ivanvov",
+  "email": "ivvvan@mail.ru"
+}
+2024-12-09T19:23:20.649878+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:23:21.635392+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:23:21.638439+0300 DEBUG Request Body: {
+  "first_name": "Ivvan",
+  "last_name": "Ivanvov",
+  "email": "ivvvan@mail.ru"
+}
+2024-12-09T19:23:21.647019+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:23:33.610267+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:23:33.610748+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-09T19:23:33.618856+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=1&limit=10
+2024-12-09T19:23:34.985057+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:23:34.992873+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-09T19:23:35.004800+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=1&limit=10
+2024-12-09T19:23:50.521852+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:23:50.527684+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:23:51.187153+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:23:51.203697+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:24:14.250740+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:24:14.251338+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:24:14.269243+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T19:24:14.965431+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:24:14.973073+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:24:14.983044+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T19:24:56.901958+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:24:56.911783+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:25:10.545768+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T19:25:10.561465+0300 INFO Response: 200 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T19:25:11.381800+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T19:25:11.400565+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T19:25:12.330587+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T19:25:12.334479+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T19:25:18.292061+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T19:25:18.295786+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/0
+2024-12-09T19:25:18.956121+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T19:25:18.959277+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/0
+2024-12-09T19:45:42.424746+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:45:42.428119+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T19:45:47.860156+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:45:47.862410+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T19:45:48.114578+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:45:48.138707+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T19:46:18.010814+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:46:18.011500+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:46:18.057443+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:46:18.826753+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:46:18.827402+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:46:18.832971+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:46:43.325473+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:46:43.331302+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/0
+2024-12-09T19:46:43.932355+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:46:43.936903+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/0
+2024-12-09T19:46:48.957806+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:46:48.963172+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:47:00.679986+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:00.684548+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:47:00.691860+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:01.304749+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:01.305327+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:47:01.310211+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:07.116947+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:47:07.121735+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/2
+2024-12-09T19:47:09.562827+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:47:09.566617+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/2
+2024-12-09T19:47:13.104591+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:47:13.110351+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:47:14.291266+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:47:14.304660+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:47:19.499687+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:19.500217+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:47:19.504170+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:20.124653+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:20.125327+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:47:20.133735+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:30.312662+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:30.313613+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "dfghjk",
+  "email": "ivan@cvbnm.ru"
+}
+2024-12-09T19:47:30.329668+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:30.878366+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:30.879063+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "dfghjk",
+  "email": "ivan@cvbnm.ru"
+}
+2024-12-09T19:47:30.882380+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:31.164216+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:31.164817+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "dfghjk",
+  "email": "ivan@cvbnm.ru"
+}
+2024-12-09T19:47:31.169796+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:31.365239+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T19:47:31.365871+0300 DEBUG Request Body: {
+  "first_name": "vanua",
+  "last_name": "dfghjk",
+  "email": "ivan@cvbnm.ru"
+}
+2024-12-09T19:47:31.372205+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T19:47:48.494099+0300 INFO Request to http://127.0.0.1:8001/users/?skip=0&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:47:48.494790+0300 DEBUG Query Params: {'skip': '0', 'limit': '10'}
+2024-12-09T19:47:48.500724+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=0&limit=10
+2024-12-09T19:48:02.830978+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:48:02.835349+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/2
+2024-12-09T19:48:30.660860+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:30.661519+0300 DEBUG Request Body: {
+  "first_name": "Ivan2",
+  "last_name": "Ivanov2",
+  "email": "ivan@mail2.ru"
+}
+2024-12-09T19:48:31.573292+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:31.573888+0300 DEBUG Request Body: {
+  "first_name": "Ivan2",
+  "last_name": "Ivanov2",
+  "email": "ivan@mail2.ru"
+}
+2024-12-09T19:48:44.917016+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:44.917686+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:48:45.436830+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:45.437479+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:48:55.784418+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:55.784955+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:48:55.791964+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/0
+2024-12-09T19:48:56.307217+0300 INFO Request to http://127.0.0.1:8001/users/0 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:48:56.307902+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:48:56.312777+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/0
+2024-12-09T19:50:35.687707+0300 INFO Request to http://127.0.0.1:8001/users/4 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:50:35.688301+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:50:35.698741+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/4
+2024-12-09T19:50:36.459533+0300 INFO Request to http://127.0.0.1:8001/users/4 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:50:36.460534+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:50:36.468022+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/4
+2024-12-09T19:50:39.002770+0300 INFO Request to http://127.0.0.1:8001/users/4 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:50:39.003257+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:50:39.009289+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/4
+2024-12-09T19:50:47.512779+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T19:50:47.520467+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T19:50:59.232677+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:50:59.233175+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:50:59.813357+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:50:59.818238+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T19:51:00.302622+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T19:51:00.303160+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:00:18.595284+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:00:18.596794+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:00:22.086128+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:00:22.087164+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:00:22.270154+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:00:22.281609+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:00:41.261225+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:00:41.261772+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:00:41.274916+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:00:42.137102+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:00:42.137546+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:00:42.142545+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:00:49.144910+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:00:49.145427+0300 DEBUG Request Body: {
+  "first_name": "Ivan1234",
+  "last_name": "Ivanov1234",
+  "email": "i1234wvan@mail.ru"
+}
+2024-12-09T20:01:19.859184+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:01:19.859729+0300 DEBUG Request Body: {
+  "first_name": "asfdgbg4",
+  "last_name": "sdfg",
+  "email": "isfdgn@mail.ru"
+}
+2024-12-09T20:01:43.362479+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:01:43.363004+0300 DEBUG Request Body: {
+  "first_name": "asfdgbg4",
+  "last_name": "sdfg",
+  "email": "isfdgn@mail.ru"
+}
+2024-12-09T20:02:21.358590+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:02:21.367427+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:02:22.085608+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:02:22.090633+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:02:29.027438+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:02:29.031164+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/2
+2024-12-09T20:02:33.452388+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:02:33.465069+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:02:33.923702+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:02:33.927406+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:02:46.688733+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:02:46.689486+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:02:46.699778+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T20:03:22.655772+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:03:22.656456+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:03:22.663633+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/3
+2024-12-09T20:03:46.913114+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:03:46.918079+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:03:54.274805+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:03:54.279694+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/2
+2024-12-09T20:03:58.787252+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:03:58.791160+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:03:59.476225+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:03:59.480619+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:04:02.692621+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:02.696422+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:03.069612+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:03.074364+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:03.532801+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:03.536594+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:03.868218+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:03.872183+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:04.082346+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:04.087694+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:04.620783+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:04.625490+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:04.844024+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:04.848654+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:05.018446+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:04:05.022413+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/3
+2024-12-09T20:04:35.988006+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:04:35.988589+0300 DEBUG Request Body: {
+  "first_name": "IvadsfbnAD",
+  "last_name": "Ivanasdfov",
+  "email": "ivan@maasdil.ru"
+}
+2024-12-09T20:04:35.994119+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/3
+2024-12-09T20:04:42.145161+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:04:42.146069+0300 DEBUG Request Body: {
+  "first_name": "IvadsfbnAD",
+  "last_name": "Ivanasdfov",
+  "email": "ivan@maasdil.ru"
+}
+2024-12-09T20:04:47.689197+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T20:05:40.727351+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:05:46.258023+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T20:06:27.171237+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:06:32.709095+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T20:06:38.368615+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:06:38.373838+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:06:38.956627+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:06:38.960537+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-09T20:06:46.798029+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:06:46.804035+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/2
+2024-12-09T20:13:48.435607+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:13:48.436352+0300 DEBUG Request Body: {
+  "first_name": "QWE",
+  "last_name": "QWER",
+  "email": "QWERR@mail.ru"
+}
+2024-12-09T20:13:49.481242+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:13:49.481838+0300 DEBUG Request Body: {
+  "first_name": "QWE",
+  "last_name": "QWER",
+  "email": "QWERR@mail.ru"
+}
+2024-12-09T20:14:09.156706+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:14:09.157336+0300 DEBUG Request Body: {
+  "first_name": "QWE",
+  "last_name": "QWER",
+  "email": "QR@mail.ru"
+}
+2024-12-09T20:14:19.625228+0300 INFO Request to http://127.0.0.1:8001/users/?skip=0&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:14:19.625892+0300 DEBUG Query Params: {'skip': '0', 'limit': '10'}
+2024-12-09T20:14:23.712759+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:14:23.713255+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-09T20:14:24.406930+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:14:24.407421+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-09T20:17:11.154455+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:17:11.156030+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:17:21.067680+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:17:21.068393+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:17:21.266533+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:17:21.278061+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:17:33.388181+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:17:33.388708+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:17:34.672407+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:17:34.674051+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:25:15.671779+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:25:15.672503+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivfdxan@mail.ru"
+}
+2024-12-09T20:25:37.610571+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:25:37.611469+0300 DEBUG Request Body: {
+  "first_name": "Isdffvan",
+  "last_name": "Ivanodasfv",
+  "email": "ivfdxan@mail.ru"
+}
+2024-12-09T20:25:59.627417+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:25:59.627945+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:25:59.634712+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T20:26:00.365975+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:26:00.366699+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:26:00.371706+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T20:26:11.980610+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:26:11.984436+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T20:26:12.825261+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:26:12.842101+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/1
+2024-12-09T20:30:13.230799+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:30:13.232143+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:30:17.437201+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:30:17.438119+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:30:17.607757+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:30:17.617345+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:30:32.640803+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:30:32.641341+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:33:24.603580+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:33:24.605282+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:33:28.170610+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:33:28.171751+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:33:28.444942+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:33:28.459610+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:33:33.246713+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:33:33.247367+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:37:40.578533+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:37:40.579823+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:37:44.304848+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:37:44.305785+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:37:44.504210+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:37:44.517951+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:37:49.959068+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:37:49.959862+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:38:35.497529+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:38:35.499316+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:38:38.459338+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:38:38.460091+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:38:38.632400+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:38:38.642139+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:38:42.291474+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:38:42.292040+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:52:11.475684+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:52:11.476825+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-09T20:52:17.259869+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:52:17.261330+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-09T20:52:17.410985+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:52:17.423013+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-09T20:52:21.516312+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:52:21.516935+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:52:21.544640+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:52:57.564489+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:52:57.565541+0300 DEBUG Request Body: {
+  "first_name": "vayna",
+  "last_name": "dmitruer",
+  "email": "ewfrg@mail.ru"
+}
+2024-12-09T20:52:57.599630+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:53:39.446717+0300 INFO Request to http://127.0.0.1:8001/users/?skip=4&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:53:39.447362+0300 DEBUG Query Params: {'skip': '4', 'limit': '10'}
+2024-12-09T20:53:39.452972+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=4&limit=10
+2024-12-09T20:53:40.469517+0300 INFO Request to http://127.0.0.1:8001/users/?skip=4&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:53:40.479385+0300 DEBUG Query Params: {'skip': '4', 'limit': '10'}
+2024-12-09T20:53:40.487520+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=4&limit=10
+2024-12-09T20:53:44.648829+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-09T20:53:44.649461+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-09T20:53:44.655362+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=1&limit=10
+2024-12-09T20:54:10.493573+0300 INFO Request to http://127.0.0.1:8001/users/4 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:54:21.989712+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:54:30.314440+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T20:55:01.325938+0300 INFO Request to http://127.0.0.1:8001/users/5 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:55:01.330375+0300 DEBUG Request Body: {
+  "first_name": "Iv1an",
+  "last_name": "Iva1nov",
+  "email": "iva1n@mail.ru"
+}
+2024-12-09T20:55:01.339569+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/5
+2024-12-09T20:55:15.914672+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:55:15.915326+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:55:15.921706+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/2
+2024-12-09T20:55:20.908309+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:55:20.908880+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:55:20.912874+0300 INFO Response: 404 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T20:57:00.374077+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:57:00.374671+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:57:00.381803+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/3
+2024-12-09T20:57:38.154159+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:57:38.161747+0300 DEBUG Request Body: {
+  "first_name": "ONE",
+  "last_name": "ONE",
+  "email": "ONE@mail.ru"
+}
+2024-12-09T20:57:38.179007+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:58:12.445473+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:58:12.445979+0300 DEBUG Request Body: {
+  "first_name": "TWO",
+  "last_name": "TWO",
+  "email": "TWO@mail.ru"
+}
+2024-12-09T20:58:12.461426+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:58:16.930702+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T20:58:16.931629+0300 DEBUG Request Body: {
+  "first_name": "TWO",
+  "last_name": "TWO",
+  "email": "TWO@mail.ru"
+}
+2024-12-09T20:58:16.937165+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-09T20:59:27.695391+0300 INFO Request to http://127.0.0.1:8001/users/5 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:59:27.696350+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-09T20:59:27.716841+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/5
+2024-12-09T20:59:39.615490+0300 INFO Request to http://127.0.0.1:8001/users/5 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T20:59:39.624761+0300 DEBUG Request Body: {
+  "first_name": "Iv1an",
+  "last_name": "Iv1anov",
+  "email": "iva1n@mail.ru"
+}
+2024-12-09T20:59:39.647153+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/5
+2024-12-09T20:59:58.686858+0300 INFO Request to http://127.0.0.1:8001/users/5 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T21:00:04.015189+0300 INFO Request to http://127.0.0.1:8001/users/5 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T21:00:04.018610+0300 INFO Response: 404 for DELETE http://127.0.0.1:8001/users/5
+2024-12-09T21:00:10.963573+0300 INFO Request to http://127.0.0.1:8001/users/3 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T21:05:46.366672+0300 INFO Request to http://127.0.0.1:8001/users/4 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-09T21:06:01.362224+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-09T21:06:01.362923+0300 DEBUG Request Body: {
+  "first_name": "TWO",
+  "last_name": "TWO",
+  "email": "TWO@mail.ru"
+}
+2024-12-09T21:06:01.394245+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-09T21:06:14.861373+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-09T21:06:14.862064+0300 DEBUG Request Body: {
+  "first_name": "Iv1an",
+  "last_name": "Iv1anov",
+  "email": "iva1n@mail.ru"
+}
+2024-12-09T21:06:14.879499+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-09T21:06:29.543608+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-10T18:17:38.666601+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-10T18:17:38.669419+0300 INFO Response: 404 for GET http://127.0.0.1:8001/
+2024-12-10T18:17:38.793426+0300 INFO Request to http://127.0.0.1:8001/favicon.ico - Method: GET - Client IP: 127.0.0.1
+2024-12-10T18:17:38.794654+0300 INFO Response: 404 for GET http://127.0.0.1:8001/favicon.ico
+2024-12-10T18:17:41.517290+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-10T18:17:41.518343+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-10T18:17:41.752567+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-10T18:17:41.781978+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-10T18:17:50.793490+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T18:17:50.796739+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:17:50.846477+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-10T18:27:57.363453+0300 INFO Request to http://testserver/ - Method: GET - Client IP: testclient
+2024-12-10T18:27:57.364253+0300 INFO Response: 200 for GET http://testserver/
+2024-12-10T18:33:40.805053+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:33:40.805814+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:33:40.828969+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:33:41.027635+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-10T18:33:41.033645+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-10T18:33:41.038610+0300 INFO Request to http://testserver/users/1 - Method: GET - Client IP: testclient
+2024-12-10T18:33:41.042654+0300 INFO Response: 200 for GET http://testserver/users/1
+2024-12-10T18:33:41.047913+0300 INFO Request to http://testserver/users/1 - Method: PUT - Client IP: testclient
+2024-12-10T18:33:41.048249+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Petrov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:33:41.062361+0300 INFO Response: 200 for PUT http://testserver/users/1
+2024-12-10T18:33:41.068233+0300 INFO Request to http://testserver/users/1 - Method: DELETE - Client IP: testclient
+2024-12-10T18:39:13.436952+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:39:13.437539+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:39:13.466383+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T18:39:13.476611+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-10T18:39:13.481567+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-10T18:39:13.491337+0300 INFO Request to http://testserver/users/1 - Method: GET - Client IP: testclient
+2024-12-10T18:39:13.497517+0300 INFO Response: 200 for GET http://testserver/users/1
+2024-12-10T18:39:13.505950+0300 INFO Request to http://testserver/users/1 - Method: PUT - Client IP: testclient
+2024-12-10T18:39:13.506626+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Petrov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:39:13.518672+0300 INFO Response: 200 for PUT http://testserver/users/1
+2024-12-10T18:39:13.526100+0300 INFO Request to http://testserver/users/1 - Method: DELETE - Client IP: testclient
+2024-12-10T18:39:28.546657+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:39:28.547144+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:39:28.573970+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T18:39:28.579764+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-10T18:39:28.583595+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-10T18:39:28.588508+0300 INFO Request to http://testserver/users/1 - Method: GET - Client IP: testclient
+2024-12-10T18:39:28.592928+0300 INFO Response: 200 for GET http://testserver/users/1
+2024-12-10T18:39:28.598268+0300 INFO Request to http://testserver/users/1 - Method: PUT - Client IP: testclient
+2024-12-10T18:39:28.598527+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Petrov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:39:28.611280+0300 INFO Response: 200 for PUT http://testserver/users/1
+2024-12-10T18:39:28.616518+0300 INFO Request to http://testserver/users/1 - Method: DELETE - Client IP: testclient
+2024-12-10T18:45:18.793142+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:45:18.793692+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:45:18.826971+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T18:52:52.856377+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:52:52.856831+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:52:52.871730+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:53:02.392053+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:53:02.392508+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:53:02.406984+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:53:27.508788+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:53:27.509313+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:53:27.523988+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:54:46.347714+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:54:46.348199+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:54:46.364035+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:55:56.988409+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:55:56.988881+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:55:57.008964+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T18:57:41.871759+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T18:57:41.872238+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T18:57:41.886755+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:12:23.226593+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:12:23.227178+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:12:23.241811+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:12:35.348847+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:12:35.349314+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:12:35.364115+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:15:51.404008+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:15:51.404489+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:15:51.419814+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:16:43.948114+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:16:43.948539+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:16:43.963552+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:16:53.793632+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:16:53.794088+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:16:53.808562+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:18:30.307444+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:18:30.307927+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:18:30.322594+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:19:34.964514+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:19:34.964953+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:19:34.979678+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:25:59.922669+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:25:59.923119+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:25:59.937872+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:28:17.325520+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:28:17.326674+0300 INFO Response: 200 for GET http://127.0.0.1:8001/
+2024-12-10T19:28:21.013888+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:28:21.014768+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-10T19:28:21.231335+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:28:21.248686+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-10T19:29:02.920222+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T19:29:02.920862+0300 DEBUG Request Body: {
+  "first_name": "ISDFGHJKMLvan",
+  "last_name": "IvDFGHBJNKLM:<anov",
+  "email": "ivFDGHVJBNKM>an@mail.ru"
+}
+2024-12-10T19:29:02.932881+0300 INFO Response: 422 for POST http://127.0.0.1:8001/users/
+2024-12-10T19:29:04.313595+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T19:29:04.315582+0300 DEBUG Request Body: {
+  "first_name": "ISDFGHJKMLvan",
+  "last_name": "IvDFGHBJNKLM:<anov",
+  "email": "ivFDGHVJBNKM>an@mail.ru"
+}
+2024-12-10T19:29:04.320697+0300 INFO Response: 422 for POST http://127.0.0.1:8001/users/
+2024-12-10T19:29:55.934047+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:29:55.935249+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-10T19:29:55.946324+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=1&limit=10
+2024-12-10T19:30:34.268813+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:30:34.286118+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/1
+2024-12-10T19:30:39.653691+0300 INFO Request to http://127.0.0.1:8001/users/2 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:30:39.657636+0300 INFO Response: 404 for GET http://127.0.0.1:8001/users/2
+2024-12-10T19:31:16.138248+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T19:31:16.138768+0300 DEBUG Request Body: {
+  "first_name": "QWE",
+  "last_name": "ET",
+  "email": "Wan@mail.ru"
+}
+2024-12-10T19:31:16.160813+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-10T19:31:16.801281+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T19:31:16.810461+0300 DEBUG Request Body: {
+  "first_name": "QWE",
+  "last_name": "ET",
+  "email": "Wan@mail.ru"
+}
+2024-12-10T19:31:16.821217+0300 INFO Response: 400 for POST http://127.0.0.1:8001/users/
+2024-12-10T19:31:45.783184+0300 INFO Request to http://127.0.0.1:8001/users/?skip=2&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:31:45.783611+0300 DEBUG Query Params: {'skip': '2', 'limit': '10'}
+2024-12-10T19:31:45.788337+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=2&limit=10
+2024-12-10T19:31:48.272037+0300 INFO Request to http://127.0.0.1:8001/users/?skip=2&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:31:48.272537+0300 DEBUG Query Params: {'skip': '2', 'limit': '10'}
+2024-12-10T19:31:48.276255+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=2&limit=10
+2024-12-10T19:31:49.184137+0300 INFO Request to http://127.0.0.1:8001/users/?skip=2&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:31:49.184575+0300 DEBUG Query Params: {'skip': '2', 'limit': '10'}
+2024-12-10T19:31:49.188925+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=2&limit=10
+2024-12-10T19:31:54.404445+0300 INFO Request to http://127.0.0.1:8001/users/?skip=1&limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:31:54.404874+0300 DEBUG Query Params: {'skip': '1', 'limit': '10'}
+2024-12-10T19:31:54.408786+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?skip=1&limit=10
+2024-12-10T19:32:44.069276+0300 INFO Request to http://127.0.0.1:8001/users/?limit=10 - Method: GET - Client IP: 127.0.0.1
+2024-12-10T19:32:44.069948+0300 DEBUG Query Params: {'limit': '10'}
+2024-12-10T19:32:44.075473+0300 INFO Response: 200 for GET http://127.0.0.1:8001/users/?limit=10
+2024-12-10T19:33:05.029893+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-10T19:33:05.030571+0300 DEBUG Request Body: {
+  "first_name": "WIvan",
+  "last_name": "WIvanov",
+  "email": "iWvan@mail.ru"
+}
+2024-12-10T19:33:05.052756+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-10T19:33:05.888099+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-10T19:33:05.888774+0300 DEBUG Request Body: {
+  "first_name": "WIvan",
+  "last_name": "WIvanov",
+  "email": "iWvan@mail.ru"
+}
+2024-12-10T19:33:05.899180+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-10T19:33:08.792696+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: PUT - Client IP: 127.0.0.1
+2024-12-10T19:33:08.793509+0300 DEBUG Request Body: {
+  "first_name": "WIvan",
+  "last_name": "WIvanov",
+  "email": "iWvan@mail.ru"
+}
+2024-12-10T19:33:08.799760+0300 INFO Response: 200 for PUT http://127.0.0.1:8001/users/1
+2024-12-10T19:36:07.215932+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-10T19:36:07.216590+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:36:07.229677+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-10T19:43:37.717274+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:43:37.717732+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:43:37.733496+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:44:15.258967+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:44:15.259456+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:44:15.274726+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:46:17.724956+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:46:17.725381+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:47:25.118006+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:47:25.118453+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:47:25.133167+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:48:33.915355+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:48:33.915786+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:54:18.861117+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:54:18.861585+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:54:18.876169+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:57:07.867492+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:57:07.867927+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:57:07.882633+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T19:58:28.010098+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T19:58:28.010710+0300 DEBUG Request Body: {
+  "first_name": "Ivan",
+  "last_name": "Ivanov",
+  "email": "ivan@mail.ru"
+}
+2024-12-10T19:58:28.025583+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-10T22:04:55.327464+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T22:04:55.330052+0300 DEBUG Request Body: {
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com"
+}
+2024-12-10T22:04:55.382842+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T22:04:55.389338+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T22:04:55.389673+0300 DEBUG Request Body: {
+  "first_name": "Jane",
+  "last_name": "Smith",
+  "email": "jane.smith@example.com"
+}
+2024-12-10T22:04:55.400029+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T22:04:55.403160+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-10T22:04:55.407273+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-10T22:04:55.598402+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T22:04:55.598715+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Johnson",
+  "email": "alice.johnson@example.com"
+}
+2024-12-10T22:04:55.619948+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T22:04:55.623224+0300 INFO Request to http://testserver/users/6 - Method: GET - Client IP: testclient
+2024-12-10T22:04:55.628874+0300 INFO Response: 200 for GET http://testserver/users/6
+2024-12-10T22:04:55.634784+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T22:04:55.635136+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Brown",
+  "email": "bob.brown@example.com"
+}
+2024-12-10T22:04:55.646845+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T22:04:55.650846+0300 INFO Request to http://testserver/users/7 - Method: PUT - Client IP: testclient
+2024-12-10T22:04:55.651117+0300 DEBUG Request Body: {
+  "first_name": "Robert",
+  "last_name": "Brown",
+  "email": "robert.brown@example.com"
+}
+2024-12-10T22:04:55.663580+0300 INFO Response: 200 for PUT http://testserver/users/7
+2024-12-10T22:04:55.668731+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-10T22:04:55.669026+0300 DEBUG Request Body: {
+  "first_name": "Charlie",
+  "last_name": "Davis",
+  "email": "charlie.davis@example.com"
+}
+2024-12-10T22:04:55.681501+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-10T22:04:55.684998+0300 INFO Request to http://testserver/users/8 - Method: DELETE - Client IP: testclient
+2024-12-11T18:40:46.362462+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:40:46.364075+0300 DEBUG Request Body: {
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com"
+}
+2024-12-11T18:40:46.397063+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:40:46.626758+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:40:46.627073+0300 DEBUG Request Body: {
+  "first_name": "Jane",
+  "last_name": "Smith",
+  "email": "jane.smith@example.com"
+}
+2024-12-11T18:40:46.630344+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:40:46.633610+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T18:40:46.641452+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T18:40:46.652930+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:40:46.653244+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Johnson",
+  "email": "alice.johnson@example.com"
+}
+2024-12-11T18:40:46.656116+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:40:46.667368+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:40:46.667732+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Brown",
+  "email": "bob.brown@example.com"
+}
+2024-12-11T18:40:46.680104+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T18:40:46.683804+0300 INFO Request to http://testserver/users/8 - Method: PUT - Client IP: testclient
+2024-12-11T18:40:46.684069+0300 DEBUG Request Body: {
+  "first_name": "Robert",
+  "last_name": "Brown",
+  "email": "robert.brown@example.com"
+}
+2024-12-11T18:40:46.699480+0300 INFO Response: 200 for PUT http://testserver/users/8
+2024-12-11T18:40:46.706298+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:40:46.706602+0300 DEBUG Request Body: {
+  "first_name": "Charlie",
+  "last_name": "Davis",
+  "email": "charlie.davis@example.com"
+}
+2024-12-11T18:40:46.717163+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T18:40:46.720273+0300 INFO Request to http://testserver/users/9 - Method: DELETE - Client IP: testclient
+2024-12-11T18:40:46.739633+0300 INFO Response: 200 for DELETE http://testserver/users/9
+2024-12-11T18:40:46.752554+0300 INFO Request to http://testserver/users/9 - Method: GET - Client IP: testclient
+2024-12-11T18:40:46.763074+0300 INFO Response: 404 for GET http://testserver/users/9
+2024-12-11T18:43:50.631230+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:43:50.631694+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T18:43:50.659847+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T18:55:51.993069+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:55:51.994200+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T18:55:52.016465+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:55:52.020430+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:55:52.020704+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T18:55:52.038688+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T18:55:52.042137+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T18:55:52.047250+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T18:56:21.165692+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:56:21.166136+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T18:56:21.180384+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:56:21.186652+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T18:56:21.186996+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T18:56:21.190818+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T18:56:21.194292+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T18:56:21.199230+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:05:44.342682+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:05:44.343898+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:05:44.380079+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:05:44.384550+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:05:44.384911+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:05:44.393167+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:05:44.397813+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:05:44.404773+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:09:25.564735+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:09:25.565709+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:09:25.596147+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:09:25.600544+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:09:25.600914+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:09:25.613466+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:09:25.618086+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:09:25.627283+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:12:29.698649+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:12:29.699907+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:12:29.732023+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:12:29.736368+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:12:29.736699+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:12:29.744766+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:12:29.747843+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:12:29.754002+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:15:29.314422+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:15:29.314949+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:15:29.342951+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:20:48.404441+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:20:48.404914+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:20:48.429008+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:20:48.433309+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:20:48.433604+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:20:48.444093+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:20:48.447495+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:20:48.452727+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:27:26.270707+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:27:26.271264+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:27:31.839795+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Alice', 'Smith', 'alice.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T19:27:31.841068+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T19:27:31.846574+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:27:31.846859+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:27:37.392255+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Bob', 'Johnson', 'bob.johnson@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T19:27:37.393105+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T19:27:37.396434+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:27:37.403172+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:31:10.392266+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:31:10.404878+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:31:10.410193+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:31:10.410478+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T19:31:10.433619+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:31:10.437661+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:31:10.437935+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T19:31:10.446399+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T19:31:10.449952+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T19:31:10.454275+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T19:48:18.907446+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T19:48:18.908155+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T19:48:18.939841+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:02:20.467447+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:02:20.467919+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:02:20.491684+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:05:55.421194+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:05:55.421621+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.smith@example.com"
+}
+2024-12-11T20:05:55.451990+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:05:55.455852+0300 INFO Request to http://testserver/users/5 - Method: PUT - Client IP: testclient
+2024-12-11T20:05:55.456143+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:05:55.475831+0300 INFO Response: 200 for PUT http://testserver/users/5
+2024-12-11T20:09:06.030453+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:09:06.031218+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.smith@example.com"
+}
+2024-12-11T20:09:06.063955+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:09:06.068738+0300 INFO Request to http://testserver/users/6 - Method: PUT - Client IP: testclient
+2024-12-11T20:09:06.069109+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:09:06.086895+0300 INFO Response: 200 for PUT http://testserver/users/6
+2024-12-11T20:10:36.880605+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:10:36.881761+0300 INFO Response: 200 for GET http://127.0.0.1:8001/
+2024-12-11T20:10:37.017997+0300 INFO Request to http://127.0.0.1:8001/favicon.ico - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:10:37.019242+0300 INFO Response: 404 for GET http://127.0.0.1:8001/favicon.ico
+2024-12-11T20:10:42.317512+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:10:42.318848+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-11T20:10:43.008111+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:10:43.045121+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-11T20:11:18.129421+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-11T20:11:18.131804+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0414\u0438\u043c\u0430@mail.ru"
+}
+2024-12-11T20:11:18.168296+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-11T20:11:43.681650+0300 INFO Request to http://127.0.0.1:8001/users/1 - Method: DELETE - Client IP: 127.0.0.1
+2024-12-11T20:11:43.710152+0300 INFO Response: 200 for DELETE http://127.0.0.1:8001/users/1
+2024-12-11T20:15:38.075657+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:15:38.077914+0300 INFO Response: 200 for GET http://127.0.0.1:8001/
+2024-12-11T20:16:52.326120+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:16:52.326874+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-11T20:16:52.953842+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:16:52.971067+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-11T20:17:18.705907+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-11T20:17:18.709030+0300 DEBUG Request Body: {
+  "first_name": "MAXIM",
+  "last_name": "MMMM",
+  "email": "MMMM@mail.ru"
+}
+2024-12-11T20:17:18.763007+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-11T20:17:24.608516+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-11T20:17:24.609046+0300 DEBUG Request Body: {
+  "first_name": "MAXIM",
+  "last_name": "MMMM",
+  "email": "MMMM@mail.ru"
+}
+2024-12-11T20:17:24.623524+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-11T20:23:06.683063+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:23:06.684543+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T20:23:06.727791+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:23:06.732961+0300 INFO Request to http://testserver/users/7 - Method: DELETE - Client IP: testclient
+2024-12-11T20:23:06.747137+0300 INFO Response: 200 for DELETE http://testserver/users/7
+2024-12-11T20:28:49.776191+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:28:49.776979+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:28:55.337086+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:28:55.341303+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:30:36.339990+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:30:36.340612+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:30:41.920700+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:30:41.925780+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:33:36.150115+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:33:36.150808+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:33:41.681997+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:33:41.685101+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:34:54.663394+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:34:54.663858+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:35:00.191182+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:35:00.192285+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:38:00.551351+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:38:00.551801+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:38:06.068709+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:38:06.074093+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:38:58.720073+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:38:58.720530+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:39:04.255937+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:39:04.260395+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:44:28.483208+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:44:28.485404+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:44:34.033241+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:44:34.035675+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:44:46.465597+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:44:46.466108+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:44:52.004775+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('ННН', 'ЫВАПРО', 'АПРОЛ.johnson@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:44:52.006471+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:45:39.353131+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:45:39.353600+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:45:44.889398+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Иван', 'Дмитриевич', 'вануа.ывма@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T20:45:44.894872+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T20:48:08.052955+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:48:08.053506+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:48:08.083261+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:48:59.816355+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:48:59.816809+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:48:59.849497+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:50:05.910306+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:50:05.929045+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:50:05.934069+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:50:05.934342+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T20:50:05.952583+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:50:05.956139+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:50:05.956397+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T20:50:05.966756+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:50:05.969978+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:50:05.974167+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:51:25.675324+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:51:25.675771+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:51:25.701141+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:52:01.775018+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:52:01.775488+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:52:01.799594+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:52:01.803428+0300 INFO Request to http://testserver/users/12 - Method: PUT - Client IP: testclient
+2024-12-11T20:52:01.803704+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:52:01.811075+0300 INFO Response: 200 for PUT http://testserver/users/12
+2024-12-11T20:52:44.233840+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:52:44.234298+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:52:44.259861+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:52:45.270105+0300 INFO Request to http://testserver/users/13 - Method: DELETE - Client IP: testclient
+2024-12-11T20:52:45.295373+0300 INFO Response: 200 for DELETE http://testserver/users/13
+2024-12-11T20:52:45.299494+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:52:45.304715+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:54:13.611416+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:54:13.625576+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:54:13.631659+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:54:13.632009+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T20:54:13.646967+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:54:13.651288+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:54:13.651592+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T20:54:13.662447+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:54:13.666027+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:54:13.670237+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:55:36.853231+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:55:36.854100+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T20:55:36.878830+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:55:45.333140+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:55:45.333614+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:55:45.365931+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:55:45.371188+0300 INFO Request to http://testserver/users/16 - Method: PUT - Client IP: testclient
+2024-12-11T20:55:45.371494+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T20:55:45.378852+0300 INFO Response: 200 for PUT http://testserver/users/16
+2024-12-11T20:55:54.551826+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T20:55:54.552284+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T20:55:54.575355+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T20:55:55.584614+0300 INFO Request to http://testserver/users/17 - Method: DELETE - Client IP: testclient
+2024-12-11T20:55:55.600453+0300 INFO Response: 200 for DELETE http://testserver/users/17
+2024-12-11T20:55:55.604678+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T20:55:55.610828+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T20:59:50.723525+0300 INFO Request to http://127.0.0.1:8001/ - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:59:50.725179+0300 INFO Response: 200 for GET http://127.0.0.1:8001/
+2024-12-11T20:59:53.717843+0300 INFO Request to http://127.0.0.1:8001/docs - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:59:53.719029+0300 INFO Response: 200 for GET http://127.0.0.1:8001/docs
+2024-12-11T20:59:54.319971+0300 INFO Request to http://127.0.0.1:8001/openapi.json - Method: GET - Client IP: 127.0.0.1
+2024-12-11T20:59:54.337956+0300 INFO Response: 200 for GET http://127.0.0.1:8001/openapi.json
+2024-12-11T21:00:33.297969+0300 INFO Request to http://127.0.0.1:8001/users/ - Method: POST - Client IP: 127.0.0.1
+2024-12-11T21:00:33.299267+0300 DEBUG Request Body: {
+  "first_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439",
+  "last_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0447",
+  "email": "JJJJOK@mail.ru"
+}
+2024-12-11T21:00:33.361819+0300 INFO Response: 200 for POST http://127.0.0.1:8001/users/
+2024-12-11T21:03:28.836687+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:03:28.838478+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T21:03:28.896372+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:03:39.156231+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:03:39.169864+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:03:39.175685+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:03:39.175978+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:03:39.191762+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:03:39.195464+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:03:39.195714+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:03:39.205292+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:03:39.208345+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:03:39.212440+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:03:52.965365+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:03:52.979093+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:03:52.985121+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:03:52.985423+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:03:53.008118+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:03:53.012228+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:03:53.012510+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:03:53.030992+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:03:53.034137+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:03:53.038291+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:05:37.179323+0300 INFO Request to http://testserver/users/ - Method: DELETE - Client IP: testclient
+2024-12-11T21:05:37.180114+0300 INFO Response: 405 for DELETE http://testserver/users/
+2024-12-11T21:06:04.227454+0300 INFO Request to http://testserver/users/ - Method: DELETE - Client IP: testclient
+2024-12-11T21:06:04.228226+0300 INFO Response: 405 for DELETE http://testserver/users/
+2024-12-11T21:07:59.505252+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:07:59.505695+0300 DEBUG Request Body: {
+  "first_name": "\u0418\u0432\u0430\u043d",
+  "last_name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447",
+  "email": "\u0432\u0430\u043d\u0443\u0430.\u044b\u0432\u043c\u0430@example.com"
+}
+2024-12-11T21:07:59.553254+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:08:53.255623+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:08:53.256083+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:08:53.289516+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:08:53.293317+0300 INFO Request to http://testserver/users/23 - Method: PUT - Client IP: testclient
+2024-12-11T21:08:53.293589+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:08:53.302406+0300 INFO Response: 200 for PUT http://testserver/users/23
+2024-12-11T21:09:12.317098+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:09:12.317649+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T21:09:12.354861+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:09:13.360763+0300 INFO Request to http://testserver/users/24 - Method: DELETE - Client IP: testclient
+2024-12-11T21:09:13.386560+0300 INFO Response: 200 for DELETE http://testserver/users/24
+2024-12-11T21:09:13.391573+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:09:13.399109+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:09:49.844199+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:09:49.863404+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:09:49.869245+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:09:49.869574+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:09:49.884946+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:09:49.889098+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:09:49.889352+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:09:49.899097+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:09:49.902599+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:09:49.907094+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:10:30.371437+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:10:30.385659+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:10:30.391262+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:10:30.391599+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:10:30.412154+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:10:30.418435+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:10:30.418849+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:10:30.432056+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:10:30.436291+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:10:30.441963+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:12:00.625440+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:12:00.638976+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:12:00.650046+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:12:00.651078+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:12:06.207917+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Alice', 'Smith', 'alice.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:12:06.212151+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:12:06.226807+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:12:06.227854+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:12:11.791055+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Bob', 'Johnson', 'bob.johnson@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:12:11.793685+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:12:11.802834+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:12:11.815159+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:16:28.021538+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:16:28.050218+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:16:28.055241+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:16:28.055501+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:16:33.577679+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Alice', 'Smith', 'alice.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:16:33.582683+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:16:33.597057+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:16:33.598040+0300 DEBUG Request Body: {
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "email": "bob.johnson@example.com"
+}
+2024-12-11T21:16:39.154049+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Bob', 'Johnson', 'bob.johnson@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:16:39.156857+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:16:39.170484+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:16:39.187515+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:17:47.820634+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:17:47.834828+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:17:47.840763+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:17:47.841094+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:17:53.362234+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('qqq', 'qqqq', 'qqq.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:17:53.365755+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:17:53.373237+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:17:53.373743+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "www": "www.johnson@example.com"
+}
+2024-12-11T21:17:53.378964+0300 INFO Response: 422 for POST http://testserver/users/
+2024-12-11T21:17:53.386020+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:17:53.393643+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:18:14.056693+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:18:14.057162+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:18:19.611073+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Alice', 'Smith', 'alice.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:18:19.614608+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:18:49.895068+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:18:49.895523+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:18:55.448491+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Alice', 'Smith', 'alice.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:18:55.453954+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:19:05.462054+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:19:05.475615+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:19:05.482277+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:19:05.482581+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:19:11.003110+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('qqq', 'qqqq', 'qqq.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:19:11.008659+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:19:11.022044+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:19:11.022415+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "www": "www.johnson@example.com"
+}
+2024-12-11T21:19:11.024605+0300 INFO Response: 422 for POST http://testserver/users/
+2024-12-11T21:19:11.027634+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:19:11.032202+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:19:16.509051+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:19:16.509484+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:19:22.049781+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('ННН', 'ЫВАПРО', 'АПРОЛ.johnson@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:19:22.055390+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:19:30.286545+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:19:30.287030+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T21:19:35.827062+0300 ERROR Error creating user: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO "User" (first_name, last_name, email) VALUES (?, ?, ?)]
+[parameters: ('Дон', 'Дон', 'Дон.smith@example.com')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-11T21:19:35.829801+0300 INFO Response: 400 for POST http://testserver/users/
+2024-12-11T21:21:33.974960+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:21:33.976086+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:21:34.000974+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:21:34.008817+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:21:34.014360+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:21:34.018221+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:21:34.018545+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:21:34.027894+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:21:34.031375+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:21:34.031610+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "www": "www.johnson@example.com"
+}
+2024-12-11T21:21:34.033568+0300 INFO Response: 422 for POST http://testserver/users/
+2024-12-11T21:21:34.037243+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:21:34.042738+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:21:34.237391+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:21:34.237715+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:21:34.247125+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:21:34.250569+0300 INFO Request to http://testserver/users/30 - Method: PUT - Client IP: testclient
+2024-12-11T21:21:34.250839+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:21:34.256378+0300 INFO Response: 200 for PUT http://testserver/users/30
+2024-12-11T21:21:34.264675+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:21:34.265010+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T21:21:34.275668+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:21:35.285365+0300 INFO Request to http://testserver/users/31 - Method: DELETE - Client IP: testclient
+2024-12-11T21:21:35.309999+0300 INFO Response: 200 for DELETE http://testserver/users/31
+2024-12-11T21:21:35.315620+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:21:35.321920+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:22:07.989431+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:22:07.989883+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:22:08.014819+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:22:08.021955+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:22:08.027431+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:22:08.031179+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:22:08.031439+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:22:08.042326+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:22:08.045994+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:22:08.046242+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "www": "www.johnson@example.com"
+}
+2024-12-11T21:22:08.048198+0300 INFO Response: 422 for POST http://testserver/users/
+2024-12-11T21:22:08.051213+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:22:08.055691+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:22:08.253292+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:22:08.253595+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:22:08.262305+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:22:08.265487+0300 INFO Request to http://testserver/users/33 - Method: PUT - Client IP: testclient
+2024-12-11T21:22:08.265723+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:22:08.271213+0300 INFO Response: 200 for PUT http://testserver/users/33
+2024-12-11T21:22:08.277728+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:22:08.278047+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T21:22:08.298125+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:22:09.309567+0300 INFO Request to http://testserver/users/34 - Method: DELETE - Client IP: testclient
+2024-12-11T21:22:09.333257+0300 INFO Response: 200 for DELETE http://testserver/users/34
+2024-12-11T21:22:09.340831+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:22:09.348563+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:26:50.908534+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:26:50.922942+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:26:50.928481+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:26:50.929412+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:26:50.950022+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:26:50.951792+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:26:50.952034+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "last_name": "www",
+  "email": "www.johnson@example.com"
+}
+2024-12-11T21:26:50.961462+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:27:31.900141+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:27:31.900558+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:27:31.924973+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:27:31.926518+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:27:31.926745+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "last_name": "www",
+  "email": "www.johnson@example.com"
+}
+2024-12-11T21:27:31.936619+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:27:31.937799+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:27:31.941825+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:28:38.137376+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:28:38.137821+0300 DEBUG Request Body: {
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "email": "alice.smith@example.com"
+}
+2024-12-11T21:28:38.162649+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:28:38.178421+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:28:38.179100+0300 DEBUG Request Body: {
+  "first_name": "qqq",
+  "last_name": "qqqq",
+  "email": "qqq.smith@example.com"
+}
+2024-12-11T21:28:38.193891+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:28:38.195672+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:28:38.195983+0300 DEBUG Request Body: {
+  "first_name": "www",
+  "last_name": "www",
+  "email": "www.johnson@example.com"
+}
+2024-12-11T21:28:38.207078+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:28:38.208261+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:28:38.212152+0300 INFO Response: 200 for GET http://testserver/users/
+2024-12-11T21:28:38.215853+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:28:38.216174+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:28:38.225477+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:28:38.226662+0300 INFO Request to http://testserver/users/3 - Method: PUT - Client IP: testclient
+2024-12-11T21:28:38.226945+0300 DEBUG Request Body: {
+  "first_name": "\u041d\u041d\u041d",
+  "last_name": "\u042b\u0412\u0410\u041f\u0420\u041e",
+  "email": "\u0410\u041f\u0420\u041e\u041b.johnson@example.com"
+}
+2024-12-11T21:28:38.232373+0300 INFO Response: 200 for PUT http://testserver/users/3
+2024-12-11T21:28:38.236070+0300 INFO Request to http://testserver/users/ - Method: POST - Client IP: testclient
+2024-12-11T21:28:38.236391+0300 DEBUG Request Body: {
+  "first_name": "\u0414\u043e\u043d",
+  "last_name": "\u0414\u043e\u043d",
+  "email": "\u0414\u043e\u043d.smith@example.com"
+}
+2024-12-11T21:28:38.245876+0300 INFO Response: 200 for POST http://testserver/users/
+2024-12-11T21:28:39.250639+0300 INFO Request to http://testserver/users/4 - Method: DELETE - Client IP: testclient
+2024-12-11T21:28:39.275418+0300 INFO Response: 200 for DELETE http://testserver/users/4
+2024-12-11T21:28:39.278242+0300 INFO Request to http://testserver/users/ - Method: GET - Client IP: testclient
+2024-12-11T21:28:39.283647+0300 INFO Response: 200 for GET http://testserver/users/
