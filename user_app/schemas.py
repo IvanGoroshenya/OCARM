@@ -1,4 +1,9 @@
+
+# Этот файл содержит Pydantic-схемы, которые используются для валидации данных в запросах и ответах API.
+
 from pydantic import BaseModel, ConfigDict, Field, EmailStr
+
+
 
 class UserBase(BaseModel):
     first_name: str = Field(..., json_schema_extra={"example": "Ivan"})

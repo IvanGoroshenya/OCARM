@@ -1,11 +1,12 @@
 from fastapi import FastAPI, Depends, HTTPException, Request
-from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 from typing import List
-import models, schemas, database, crud
-import logging
+import database
+from user_app import models, schemas, crud
 import json
 from loger_config import service_logger as logger
+from user_app.app import user_app_router
+
 
 
 
@@ -13,6 +14,8 @@ from loger_config import service_logger as logger
 # uvicorn main:app --port 8001 --reload
 
 app = FastAPI()
+
+app.include_router(user_app_router, prefix="/user_app", tags=["users"])
 
 
 
@@ -67,7 +70,7 @@ async def read_main():
 #         raise HTTPException(status_code=400, detail="Email already registered")
 #     return crud.create_user(db=db, user=user)
 
-@app.post("/users/",response_model=schemas.UserInfo)
+@app.post("/users/", response_model=schemas.UserInfo)
 async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     try:
         new_user = models.User(**user.dict())

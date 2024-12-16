@@ -17,3 +17,7 @@ class User(Base):
 
     def __repr__(self):
         return f"{self.user_id} {self.first_name} {self.last_name} {self.email}"
+
+
+
+# models - Этот файл содержит определение таблиц базы данных с помощью SQLAlchemy.

@@ -1,19 +1,17 @@
-import starlette
-from fastapi.testclient import TestClient
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+import sys
+import os
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from fastapi.testclient import TestClient
-import database
-from database import Base
-from main import app, get_db
-from models import User
-import  time
-from sqlalchemy import distinct
-from main import app
+import time
 
+# Добавляем путь к user_app в sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../user_app")))
+
+from database import Base  # Импорт из папки user_app
+from main import app, get_db
+from user_app.models import User
 
 # Создаем тестовую базу данных
 SQLALCHEMY_DATABASE_URL_test = "sqlite:///./test_test.db"
