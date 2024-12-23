@@ -1,32 +1,39 @@
 # Файл app.py связывает маршруты (эндпоинты) с логикой из crud.py, схемами из schemas.py и сессией базы данных из database.py.
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from . import crud, schemas, models
 from database import SessionLocal
+from sqlalchemy.orm import Session
 
 user_app_router = APIRouter()  # Создаётся экземпляр APIRouter, который будет хранить маршруты, связанные с пользователями.
 
 
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+
 #  Маршрут для создания пользователя
 @user_app_router.post("/users/", response_model=schemas.UserInfo)
-def create_user(user: schemas.UserCreate):
-    db = SessionLocal()   # # Создаём сессию базы данных
+def create_user(user: schemas.UserCreate,db: Session = Depends(get_db),):  # db: Session = Depends(get_db) - сессия базы данных создаётся и закрывается автоматически.
     return crud.create_user(db=db, user=user)  # # Вызываем функцию из crud.py
 
 @user_app_router.get("/users/", response_model=list[schemas.UserInfo])
-def get_users():
-    db = SessionLocal()
+def get_users(db: Session = Depends(get_db),):  # Добавили
     return crud.get_all_users(db)
 
 
-@user_app_router.put("/user/{user_id}/", response_model=schemas.UserInfo)
-def update_user(user_id: int, user: schemas.UserCreate):
-    db = SessionLocal()
+@user_app_router.put("/users/{user_id}/", response_model=schemas.UserInfo)
+def update_user(user_id: int, user: schemas.UserCreate,db: Session = Depends(get_db), ):
     return crud.update_user(db=db,user_id=user_id,user=user)
 
-@user_app_router.delete("/user/{user_id}/")
-def delete_user(user_id : int):
-    db = SessionLocal()
+@user_app_router.delete("/users/{user_id}/")
+def delete_user(user_id : int,db: Session = Depends(get_db),):
     return crud.delete_user(db=db,user_id=user_id)
 
 
