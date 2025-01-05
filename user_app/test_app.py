@@ -46,10 +46,6 @@ def test_client(): # Эта фикстура гарантирует, что ка
     Base.metadata.drop_all(bind=engine)
 
 
-
-
-
-
 #  фикстура для базы данных  def test_get_users(test_client, session): этот тест не проходил без этого
 
 # Это декоратор, указывающий, что session является фиктурой.scope="module" означает, что фикстура создаётся один раз для всего тестового модуля
@@ -179,7 +175,7 @@ def test_delete(test_client):  # pytest -k "test_delete"
     response = test_client.post("/user_app/users/", json=user_data)
     assert response.status_code == 200  # Убедимся, что пользователь был успешно создан
 
-    user_id = response.json().get("/user_app/user/{user_id}")  # Извлекаем user_id из ответа
+    user_id = response.json().get("user_id")  # Извлекаем user_id из ответа
     assert user_id is not None  # Убедимся, что user_id существует
 
     # Задержка для предотвращения блокировки базы данных
@@ -190,6 +186,6 @@ def test_delete(test_client):  # pytest -k "test_delete"
     assert delete_response.status_code == 200  # Убедимся, что пользователь был удален успешно
 
     # Проверяем, что пользователь был удален
-    get_response = test_client.get("/user_app/user/{user_id}")
+    get_response = test_client.get(f"/user_app/users/{user_id}")
     response_data = get_response.json()
     assert all(user["user_id"] != user_id for user in response_data)  # Убедимся, что пользователя нет в списке

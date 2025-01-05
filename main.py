@@ -1,14 +1,18 @@
 from fastapi import FastAPI, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
 from typing import List
+
+from starlette.responses import FileResponse, HTMLResponse
+
 import database
+import os
 from user_app import models, schemas, crud
 import json
 from loger_config import service_logger as logger
 from user_app.app import user_app_router
 
 
-# http://localhost:8001/
+# http://localhost:8001/  - используем этот адрес если другие не работают
 # docker build -t fastapi-project .
 # docker run -p 8001:8001 fastapi-project
 # uvicorn main:app --reload
@@ -17,6 +21,8 @@ from user_app.app import user_app_router
 app = FastAPI()
 
 app.include_router(user_app_router, prefix="/user_app", tags=["users"])
+IMAGE_PATH = os.path.join(os.getcwd(), "static", "example.jpg")
+
 
 
 
@@ -54,9 +60,69 @@ def get_db():
         db.close()
 
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 async def read_main():
-    return {"msg": "Hello World"}
+    # HTML с картинкой
+    # HTML с текстом поверх картинки
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Welcome</title>
+        <style>
+            .image-container {{
+                position: relative;
+                text-align: center;
+                color: white;
+                font-family: Arial, sans-serif;
+            }}
+            .centered-text {{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2em;
+                font-weight: bold;
+                background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для выделения текста */
+                padding: 10px 20px;
+                border-radius: 10px;
+            }}
+            .docs-link {{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 1.2em;
+                color: #ffffff;
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 8px 15px;
+                border-radius: 5px;
+            }}
+            .docs-link:hover {{
+                background-color: rgba(0, 0, 0, 0.8);
+            }}
+        </style>
+    </head>
+    <body>
+        <h1>Welcome Page</h1>
+        <div class="image-container">
+            <img src="/image" alt="Example Image" style="max-width: 100%; height: auto;">
+            <div class="centered-text">Hello User</div>
+            <a href="/docs" target="_blank" class="docs-link">Перейти к документации FastAPI</a>
+        </div>
+    </body>
+    </html>
+    """
+
+    return HTMLResponse(content=html_content)
+
+
+@app.get("/image")
+async def get_image():
+    if not os.path.exists(IMAGE_PATH):
+        return {"error": "Image not found!"}
+    return FileResponse(IMAGE_PATH)
 
 
 
@@ -64,78 +130,4 @@ async def read_main():
 
 
 
-# @app.post("/users/", response_model=schemas.UserInfo)
-# def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-#     db_user = crud.get_user_by_email(db, email=user.email)
-#     if db_user:
-#         raise HTTPException(status_code=400, detail="Email already registered")
-#     return crud.create_user(db=db, user=user)
 
-# @app.post("/users/", response_model=schemas.UserInfo)
-# async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-#     try:
-#         new_user = models.User(**user.dict())
-#         db.add(new_user)
-#         db.commit()
-#         db.refresh(new_user)
-#         return new_user
-#     except Exception as e:
-#         logger.error(f"Error creating user: {e}")
-#         raise HTTPException(status_code=400, detail="Invalid data")
-#
-#
-# @app.get("/users/", response_model=List[schemas.UserInfo])
-# def read_users(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
-#     users = crud.get_all_users(db, skip=skip, limit=limit)
-#     return users
-#
-# @app.get("/users/{user_id}", response_model=schemas.UserInfo)
-# def read_user(user_id: int, db: Session = Depends(get_db)):
-#     db_user = crud.get_user_by_id(db, user_id=user_id)
-#     if db_user is None:
-#         raise HTTPException(status_code=404, detail="User not found")
-#     return db_user
-#
-#
-#
-# @app.put("/users/{user_id}", response_model=schemas.UserInfo)
-# def update_user(user_id: int, user: schemas.UserCreate, db: Session = Depends(get_db)):
-#     return crud.update_user(db=db, user_id=user_id, user=user)
-#
-#
-# @app.delete("/users/{user_id}", response_model=schemas.UserInfo)
-# def delete_user(user_id: int, db: Session = Depends(get_db)):
-#     return crud.delete_user(db=db, user_id=user_id)
-
-
-
-#
-# logging.basicConfig(level=logging.INFO)
-# logger = logging.getLogger(__name__)
-
-# list_of_usernames = []
-#
-# @app.get('/user/{user_name}')
-# def write_user(user_name: str, user_id: int):
-#     logger.info(f"Getting user: {user_name} with ID: {user_id}")
-#
-#     return {"Name": user_name, "User_id": user_id}
-#
-# @app.put('/user_name/{user_name}')
-# def put_data(user_name: str):
-#     logger.info(f"Adding username: {user_name}")
-#     logger.debug(f"Adding username: {user_name}")
-#     list_of_usernames.append(user_name)
-#     return {"username": user_name}
-#
-# @app.post('/postData/')
-# def post_data(user_name: str):
-#     logger.info(f"Posting data for username: {user_name}")
-#     list_of_usernames.append(user_name)
-#     return {"username": list_of_usernames}
-#
-# @app.delete("/deleteData/{user_name}")
-# def delete_data(user_name: str):
-#     logger.info(f"Deleting username: {user_name}")
-#     list_of_usernames.remove(user_name)
-#     return {'usernames': list_of_usernames}

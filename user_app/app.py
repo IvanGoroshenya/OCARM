@@ -5,6 +5,7 @@ from . import crud, schemas, models
 from database import SessionLocal
 from sqlalchemy.orm import Session
 
+
 user_app_router = APIRouter()  # Создаётся экземпляр APIRouter, который будет хранить маршруты, связанные с пользователями.
 
 
